@@ -1,0 +1,22 @@
+* Devcontainer template for python and emacs
+A devcontainer docker setup
+
+* Quick-start
+From the root directory, build the container
+#+begin_src sh
+devcontainer build --workspace-folder .
+#+end_src
+
+Launch it
+#+begin_src sh
+devcontainer up --workspace-folder .
+#+end_src
+
+Navigate to it with emacs
+#+begin_src
+M-x find-file RET /docker:NAME:/workspaces/docker_python/src/test.py RET
+#+end_src
+
+If you've set up =eglot= correctly, then it will start and use =pyright= within the
+container, giving you LSP capabilities inside a docker container similar to
+VSCode.
