@@ -1,5 +1,5 @@
 * Devcontainer template for python and emacs
-A devcontainer docker setup
+A devcontainer docker setup.
 
 * Quick-start
 From the root directory, build the container
@@ -12,9 +12,9 @@ Launch it
 devcontainer up --workspace-folder .
 #+end_src
 
-Navigate to it with emacs
+Navigate to it with emacs (install the emacs [[https://github.com/Silex/docker.el][docker]] package first)
 #+begin_src
-M-x find-file RET /docker:NAME:/workspaces/docker_python/src/test.py RET
+M-x find-file RET /docker:NAME:/workspaces/emacs-python-devcontainer/src/test.py RET
 #+end_src
 
 If you've set up =eglot= correctly, then it will start and use =pyright= within the
