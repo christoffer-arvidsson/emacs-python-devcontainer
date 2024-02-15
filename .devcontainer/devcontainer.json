@@ -4,5 +4,5 @@
     "dockerfile": "Dockerfile",
     "context": ".."
   },
-  "workspaceFolder": "/workspaces/docker_python",
+  "workspaceFolder": "/workspaces/emacs-python-devcontainer",
 }
